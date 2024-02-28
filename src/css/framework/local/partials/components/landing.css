@@ -1,5 +1,5 @@
 .landing {
-    background-color: black;
+    background-color: var(--off-black);
     color: var(--off-white);
     display: flex;
     align-items: center;
@@ -33,10 +33,12 @@
 
 .landing-image {
     width: 100%;
-
+    margin-top: 52rem;
     img {
+        display: block;
         width: 900px;
+        height: 1100px;
+        object-fit: cover;
         filter: grayscale(30%);
-        box-shadow: 10px 10px 10px 10px var(--off-black) inset;
     }
 }
