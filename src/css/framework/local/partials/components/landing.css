@@ -1,0 +1,42 @@
+.landing {
+    background-color: black;
+    color: var(--off-white);
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    h1 {
+        font-family: var(--font-montserrat);
+        font-size: 50rem;
+        font-weight: 800;
+        margin-left: 10%;
+        
+    }
+    p {
+        font-family: var(--font-bebas);
+        font-size: 25rem;
+        font-weight: 700;
+        margin-top: 150rem;
+        margin-left: 10%;
+    }
+
+    #sub-landing-text {
+        color: var(--gold);
+    }
+}
+
+.landing-image {
+    width: 100%;
+
+    img {
+        width: 900px;
+        filter: grayscale(30%);
+        box-shadow: 10px 10px 10px 10px var(--off-black) inset;
+    }
+}

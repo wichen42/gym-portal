@@ -1,7 +1,8 @@
+import Landing from "./Landing"
 
 const Homepage = () => {
     return (
-        <div>homepage</div>
+        <Landing />
     )
 }
 
