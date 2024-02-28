@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     gap: 25rem;
+    padding-top: 75rem;
 }
 
 .landing-text {
@@ -22,7 +23,7 @@
         font-family: var(--roboto);
         font-size: 30rem;
         font-weight: 700;
-        margin-top: 150rem;
+        margin-top: 140rem;
         margin-left: 10%;
     }
 
