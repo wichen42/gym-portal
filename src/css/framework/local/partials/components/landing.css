@@ -17,24 +17,39 @@
         font-size: 50rem;
         font-weight: 800;
         margin-left: 10%;
-        
+    }
+    #sub-landing-text {
+        color: var(--gold);
     }
     p {
-        font-family: var(--roboto);
+        font-family: var(--font-bebas);
         font-size: 30rem;
         font-weight: 700;
         margin-top: 140rem;
         margin-left: 10%;
     }
+    .button-container {
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 75rem;
+        gap: 30rem;
 
-    #sub-landing-text {
-        color: var(--gold);
+        span {
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
+
 }
 
 .landing-image {
     width: 100%;
     margin-top: 52rem;
+
     img {
         display: block;
         width: 900px;

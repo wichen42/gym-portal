@@ -1,5 +1,6 @@
 :root {
     --off-black: #000606;
     --off-white: rgb(216, 216, 216);
-    --gold: rgb(212 175 55);
+    --gold: #D4AF37;
+    --complementary: #375CD4;
 }
