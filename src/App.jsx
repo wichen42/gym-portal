@@ -1,11 +1,12 @@
+import Homepage from "./components/Homepage"
 
 function App() {
   
 
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="app-container">
+      <Homepage />
+    </div>
   )
 }
 
