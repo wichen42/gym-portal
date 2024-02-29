@@ -5,8 +5,8 @@
     align-items: center;
     gap: 25rem;
     padding-top: 75rem;
-}
 
+}
 .landing-text {
     display: flex;
     flex-direction: column;
@@ -45,7 +45,6 @@
     }
 
 }
-
 .landing-image {
     width: 100%;
     margin-top: 52rem;
@@ -58,3 +57,23 @@
         filter: grayscale(30%);
     }
 }
+
+@media screen and (max-width: 1081px) {
+    .landing {
+        justify-content: center;
+        align-items: center;
+    }
+    .landing-text {
+
+        .button-container {
+            justify-content: center;
+        }
+    }
+    .landing-image {
+        width: 0%;
+        img {
+            display: none;
+        }
+    }
+}
+
