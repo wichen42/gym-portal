@@ -1,0 +1,8 @@
+.navbar-container {
+    background-color: var(--off-black);
+    border-bottom: 1px solid red;
+    height: 75rem;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+}

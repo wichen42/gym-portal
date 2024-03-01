@@ -4,8 +4,6 @@
     display: flex;
     align-items: center;
     gap: 25rem;
-    padding-top: 75rem;
-
 }
 .landing-text {
     display: flex;
@@ -23,7 +21,7 @@
     }
     p {
         font-family: var(--font-bebas);
-        font-size: 30rem;
+        font-size: 25rem;
         font-weight: 700;
         margin-top: 140rem;
         margin-left: 10%;
