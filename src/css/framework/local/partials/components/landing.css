@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     gap: 25rem;
-    padding-top: 25rem;
 }
 .landing-text {
     display: flex;
@@ -45,13 +44,11 @@
 
 }
 .landing-image {
-    width: 100%;
+    width: 75%;
     margin-top: 52rem;
 
     img {
         display: block;
-        width: 900px;
-        height: 1100px;
         object-fit: cover;
         filter: grayscale(30%);
     }

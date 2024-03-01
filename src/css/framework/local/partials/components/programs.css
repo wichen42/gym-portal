@@ -1,0 +1,13 @@
+.programs-container {
+    width: 100%;
+    background-color: var(--off-black);
+    color: var(--off-white);
+    font-size: 48rem;
+    font-family: var(--font-montserrat);
+    font-weight: bolder;
+
+    h1 {
+        margin-left: 5%;
+    }
+}
+
