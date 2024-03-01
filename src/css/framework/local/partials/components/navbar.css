@@ -1,8 +1,35 @@
 .navbar-container {
     background-color: var(--off-black);
-    border-bottom: 1px solid red;
-    height: 75rem;
     width: 100%;
     position: absolute;
     z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    color: var(--off-white);
+    font-size: 25rem;
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem;
+}
+.navlinks-container {
+    a {
+        margin-right: 20rem;
+    }
+}
+.booking-container {
+
+    .book-button {
+        font-weight: 600;
+        border: 2px solid var(--off-white);
+        padding: 12rem;
+        border-radius: 4rem;
+    }
 }

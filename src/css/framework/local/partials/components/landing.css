@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     gap: 25rem;
+    padding-top: 25rem;
 }
 .landing-text {
     display: flex;
