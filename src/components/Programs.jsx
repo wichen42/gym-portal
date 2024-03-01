@@ -24,26 +24,26 @@ const Programs = () => {
                     title={online.title} 
                     desc={online.desc}
                     icon={
-                        <IconContext.Provider value={{size: "25px"}}>
+                        <IconContext.Provider value={{size: "30px"}}>
                             <AiOutlineLaptop />
                         </IconContext.Provider>
-                    }/>
+                }/>
                 <Program 
                     title={personal.title} 
-                    desc={personal.desc}/>
+                    desc={personal.desc}
                     icon={
-                        <IconContext.Provider value={{size: "25px"}}>
+                        <IconContext.Provider value={{size: "30px"}}>
                             <FaUserAlt />
                         </IconContext.Provider>
-                    }
+                }/>
                 <Program 
                     title={group.title} 
                     desc={group.desc}
                     icon={
-                        <IconContext.Provider value={{size: "25px"}}>
+                        <IconContext.Provider value={{size: "30px"}}>
                             <FaUsers />
                         </IconContext.Provider>
-                    }/>
+                }/>
             </div>
         </div>
     )

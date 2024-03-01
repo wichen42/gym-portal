@@ -1,0 +1,33 @@
+.program-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid var(--off-white);
+    border-radius: 8rem;
+    padding: 16rem;
+    width: 30%;
+    height: 300rem;
+    margin-right: 150rem;
+
+    .icon-container {
+        border: 2px solid var(--off-white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12rem;
+        margin-bottom: 8rem;
+    }
+
+    h2 {
+        font-size: 25rem;
+        margin-bottom: 8rem;
+    }
+
+    p {
+        font-size: 16rem;
+        font-weight: 400;
+        max-width: 355rem;
+    }
+}

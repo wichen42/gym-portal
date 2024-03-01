@@ -8,6 +8,12 @@
 
     h1 {
         margin-left: 5%;
+        margin-bottom: 32rem;
     }
+}
+
+.programs {
+    display: flex;
+    margin-left: 5%;
 }
 
