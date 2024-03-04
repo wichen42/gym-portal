@@ -58,9 +58,15 @@
     .landing {
         justify-content: center;
         align-items: center;
+        height: 100%;
+        padding-top: 125rem;
+        padding-bottom: 200rem;
     }
     .landing-text {
-
+        h1 {
+            width: 75%;
+            height: 100%;
+        }
         .button-container {
             justify-content: center;
         }
